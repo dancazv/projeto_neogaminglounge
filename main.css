@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #7f1313;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #000000;
+    color: #7f1313;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fff;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+} 
+
+#sobre-a-gaminglounge{
+    background-color: #000000;
+    color: #fff;
+}
+
+.text-colored {
+    color: #7f1313;
+}
+
+.nav-link.active,
+#fale-conosco button {
+    background-color: #7f1313;
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #7f1313;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img{
+        height: 280px;
+    }
+}
+
+#fale-conosco{
+    background-color: #000000;
+    color: #fff;
+}
